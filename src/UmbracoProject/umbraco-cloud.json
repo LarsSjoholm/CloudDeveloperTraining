@@ -8,6 +8,12 @@
       "TrialExpireDate": "2026-05-13T14:42:49.0000000",
       "Workspaces": [
         {
+          "Id": "e1c9cb40-bc22-4b7f-b1a9-da1feb9159ec",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-larstestprojekt.euwest01.umbraco.io"
+        },
+        {
           "Id": "d641f41a-8e1f-4179-9797-52cc299d50ea",
           "Name": "Live",
           "Type": "live",
