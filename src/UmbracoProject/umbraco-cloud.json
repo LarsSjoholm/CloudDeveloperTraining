@@ -1,7 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "lars s dynamic opossum",
+      "Alias": "lars-s-dynamic-opossum",
+      "Id": "f5cc31d7-f850-453a-8f53-76c2c173863c",
+      "TrialExpireDate": "2026-05-13T14:42:49.0000000",
+      "Workspaces": [
+        {
+          "Id": "d641f41a-8e1f-4179-9797-52cc299d50ea",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://lars-s-dynamic-opossum.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
