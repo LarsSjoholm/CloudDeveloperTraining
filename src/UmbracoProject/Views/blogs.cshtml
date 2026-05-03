@@ -41,7 +41,12 @@
                                         <a href="@item.Url(Model.GetCultureFromDomains())">
                                             @if (item.BackgroundImage != null)
                                             {
-                                                <img src="@item.BackgroundImage.Url()?width=400" alt="">
+                                                var webpUrl = item.BackgroundImage.GetCropUrl(width: 400, furtherOptions: "&format=webp&quality=80");
+                                                var fallbackUrl = item.BackgroundImage.GetCropUrl(width: 400);
+                                                <picture>
+                                                    <source srcset="@webpUrl" type="image/webp" />
+                                                    <img src="@fallbackUrl" alt="">
+                                                </picture>
                                             }
                                             else
                                             {
