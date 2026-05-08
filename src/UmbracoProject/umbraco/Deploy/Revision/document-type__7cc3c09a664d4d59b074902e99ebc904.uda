@@ -1,6 +1,6 @@
 {
-  "Name": "test",
-  "Alias": "test",
+  "Name": "WebhookTest",
+  "Alias": "webhookTest",
   "AllowedTemplates": [],
   "HistoryCleanup": {},
   "Icon": "icon-document",
@@ -11,7 +11,7 @@
   "CompositionContentTypes": [],
   "PropertyGroups": [],
   "PropertyTypes": [],
-  "Udi": "umb://document-type/0f68c6b6808b48cf9eccdc8bbbb2cb68",
+  "Udi": "umb://document-type/7cc3c09a664d4d59b074902e99ebc904",
   "Dependencies": [],
   "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
   "__version": "17.0.2"
