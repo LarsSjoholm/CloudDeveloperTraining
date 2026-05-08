@@ -28,6 +28,14 @@ namespace UmbracoProject.Controllers
             _logger = logger;
         }
 
+        [HttpPost("cms-blog-publish")]
+        public IActionResult ReceiveFromCms(
+             [FromBody] JsonElement payload,
+             [FromHeader(Name = "X-Webhook-Token")] string? token = null)
+        {
+            return HandleWebhook(payload, token);
+        }
+
         [HttpGet("cloud-deploy")]
         [HttpPost("cloud-deploy")]
         public IActionResult ReceiveFromCloudDeploy(
