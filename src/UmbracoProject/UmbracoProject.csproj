@@ -6,6 +6,9 @@
     <CompressionEnabled>false</CompressionEnabled> <!-- Disable compression. E.g. for umbraco backoffice files. These files should be precompressed by node and not let dotnet handle it -->
     <UserSecretsId>6bb98586-5532-43af-b44a-f476b1fec36c</UserSecretsId>
   </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Remove="Views\Partials\Forms\Emails\PonyBooking.cshtml" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Umbraco.Cms" />
